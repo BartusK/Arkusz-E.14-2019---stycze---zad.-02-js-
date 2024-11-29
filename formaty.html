@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styl2.css">
+</head>
+<body>
+    <div class="baner">
+        <h1>Formatowanie dokumentów HTML</h1>
+    </div>
+
+    <div class="glowny1">
+        <h2>Przykład listy - hobby</h2>
+
+        <ul>
+            <li> Muzyka
+                <ol>
+                    <li>Jazz</li>
+                    <li>Rock</li>
+                    <li>Klasyczna</li>
+                </ol>
+            </li>
+            <li> Kino
+                <ol>
+                    <li>Komedia</li>
+                    <li>Dramat</li>
+                    <li>Thriller</li>
+                </ol>
+            </li>
+        </ul>
+    </div>
+
+    <div class="glowny2">
+        <h2>Przykład tabeli - rozkład dnia</h2>
+        <table>
+            <th>
+                <tr>
+                    <th>Pora dnia</th>
+                    <th>Obowiązki</th>
+                </tr>
+            </th>
+            <tbody>
+                <tr>
+                    <td>rano</td>
+                    <td>nauka</td>
+                </tr>
+                <tr>
+                    <td>południe</td>
+                    <td>zajęcia dodatkowe</td>
+                </tr>
+                <tr>
+                    <td>popołudnie</td>
+                    <td rowspan="2">moje hobby</td>
+                </tr>
+                <tr>
+                    <td>  </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    
+
+    <div class="glowny3">
+        <img src="tekst.jpg" alt="technologia web">
+    </div>
+    
+    <div class="glowny">
+        <p>Podaj rozmiar tekstu w procentach <input type="number" min="1" max="200" id="paragraf1"></p>
+        <p>
+            Wybierz styl:
+            <select id="paragraf5">
+                <option>prosty</option>
+                <option id="paragraf6">kursywa</option>
+            </select>
+        </p>
+        <p>
+            Jakim kolorem sformatować tekst? Wybierz przycisk"
+            <button id="but1"></button>
+            <button id="but2"></button>
+            <button id="but3"></button>
+        </p>
+    </div>
+
+    <footer>
+        <p><i> Formatowaniem tekstu zajmował się: 0000000 </i></p>
+        <a href="formatowanie.pl">Odwiedź także</a>
+
+    </footer>
+</body>
+</html>
